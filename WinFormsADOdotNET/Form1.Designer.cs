@@ -38,13 +38,11 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.txtCbFilter = new System.Windows.Forms.ComboBox();
             this.txtEmailFilter = new System.Windows.Forms.TextBox();
             this.txtPhoneFilter = new System.Windows.Forms.TextBox();
             this.txtMiddleNameFilter = new System.Windows.Forms.TextBox();
-            this.dpDobFilter = new System.Windows.Forms.DateTimePicker();
             this.txtLastNameFilter = new System.Windows.Forms.TextBox();
             this.txtNameFilter = new System.Windows.Forms.TextBox();
             this.txtInnFilter = new System.Windows.Forms.TextBox();
@@ -98,13 +96,11 @@
             this.tabPage1.Controls.Add(this.label12);
             this.tabPage1.Controls.Add(this.label13);
             this.tabPage1.Controls.Add(this.label14);
-            this.tabPage1.Controls.Add(this.label15);
             this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Controls.Add(this.txtCbFilter);
             this.tabPage1.Controls.Add(this.txtEmailFilter);
             this.tabPage1.Controls.Add(this.txtPhoneFilter);
             this.tabPage1.Controls.Add(this.txtMiddleNameFilter);
-            this.tabPage1.Controls.Add(this.dpDobFilter);
             this.tabPage1.Controls.Add(this.txtLastNameFilter);
             this.tabPage1.Controls.Add(this.txtNameFilter);
             this.tabPage1.Controls.Add(this.txtInnFilter);
@@ -138,17 +134,17 @@
             // 
             // btnFilter
             // 
-            this.btnFilter.Location = new System.Drawing.Point(166, 621);
+            this.btnFilter.Location = new System.Drawing.Point(166, 595);
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.Size = new System.Drawing.Size(65, 21);
             this.btnFilter.TabIndex = 36;
-            this.btnFilter.Text = "Обновить";
+            this.btnFilter.Text = "Найти";
             this.btnFilter.UseVisualStyleBackColor = true;
             this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // label9
             // 
-            this.label9.Location = new System.Drawing.Point(47, 578);
+            this.label9.Location = new System.Drawing.Point(47, 552);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(106, 20);
             this.label9.TabIndex = 35;
@@ -156,7 +152,7 @@
             // 
             // label10
             // 
-            this.label10.Location = new System.Drawing.Point(47, 552);
+            this.label10.Location = new System.Drawing.Point(47, 526);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(106, 20);
             this.label10.TabIndex = 34;
@@ -164,7 +160,7 @@
             // 
             // label11
             // 
-            this.label11.Location = new System.Drawing.Point(47, 526);
+            this.label11.Location = new System.Drawing.Point(47, 500);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(106, 20);
             this.label11.TabIndex = 33;
@@ -172,7 +168,7 @@
             // 
             // label12
             // 
-            this.label12.Location = new System.Drawing.Point(47, 497);
+            this.label12.Location = new System.Drawing.Point(47, 471);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(106, 20);
             this.label12.TabIndex = 32;
@@ -180,7 +176,7 @@
             // 
             // label13
             // 
-            this.label13.Location = new System.Drawing.Point(47, 474);
+            this.label13.Location = new System.Drawing.Point(47, 448);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(106, 20);
             this.label13.TabIndex = 31;
@@ -188,19 +184,11 @@
             // 
             // label14
             // 
-            this.label14.Location = new System.Drawing.Point(47, 448);
+            this.label14.Location = new System.Drawing.Point(47, 422);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(106, 20);
             this.label14.TabIndex = 30;
             this.label14.Text = "Имя";
-            // 
-            // label15
-            // 
-            this.label15.Location = new System.Drawing.Point(47, 425);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(106, 20);
-            this.label15.TabIndex = 29;
-            this.label15.Text = "Дата рождения";
             // 
             // label16
             // 
@@ -213,49 +201,42 @@
             // txtCbFilter
             // 
             this.txtCbFilter.Items.AddRange(new object[] {"A", "B", "C", "A1", "B1"});
-            this.txtCbFilter.Location = new System.Drawing.Point(187, 575);
+            this.txtCbFilter.Location = new System.Drawing.Point(187, 549);
             this.txtCbFilter.Name = "txtCbFilter";
             this.txtCbFilter.Size = new System.Drawing.Size(172, 21);
             this.txtCbFilter.TabIndex = 27;
             // 
             // txtEmailFilter
             // 
-            this.txtEmailFilter.Location = new System.Drawing.Point(187, 549);
+            this.txtEmailFilter.Location = new System.Drawing.Point(187, 523);
             this.txtEmailFilter.Name = "txtEmailFilter";
             this.txtEmailFilter.Size = new System.Drawing.Size(172, 20);
             this.txtEmailFilter.TabIndex = 26;
             // 
             // txtPhoneFilter
             // 
-            this.txtPhoneFilter.Location = new System.Drawing.Point(187, 523);
+            this.txtPhoneFilter.Location = new System.Drawing.Point(187, 497);
             this.txtPhoneFilter.Name = "txtPhoneFilter";
             this.txtPhoneFilter.Size = new System.Drawing.Size(172, 20);
             this.txtPhoneFilter.TabIndex = 25;
             // 
             // txtMiddleNameFilter
             // 
-            this.txtMiddleNameFilter.Location = new System.Drawing.Point(187, 497);
+            this.txtMiddleNameFilter.Location = new System.Drawing.Point(187, 471);
             this.txtMiddleNameFilter.Name = "txtMiddleNameFilter";
             this.txtMiddleNameFilter.Size = new System.Drawing.Size(172, 20);
             this.txtMiddleNameFilter.TabIndex = 24;
             // 
-            // dpDobFilter
-            // 
-            this.dpDobFilter.Location = new System.Drawing.Point(187, 419);
-            this.dpDobFilter.Name = "dpDobFilter";
-            this.dpDobFilter.Size = new System.Drawing.Size(172, 20);
-            this.dpDobFilter.TabIndex = 23;
-            // 
             // txtLastNameFilter
             // 
-            this.txtLastNameFilter.Location = new System.Drawing.Point(187, 471);
+            this.txtLastNameFilter.Location = new System.Drawing.Point(187, 445);
             this.txtLastNameFilter.Name = "txtLastNameFilter";
             this.txtLastNameFilter.Size = new System.Drawing.Size(172, 20);
             this.txtLastNameFilter.TabIndex = 22;
             // 
             // txtNameFilter
             // 
-            this.txtNameFilter.Location = new System.Drawing.Point(187, 445);
+            this.txtNameFilter.Location = new System.Drawing.Point(187, 419);
             this.txtNameFilter.Name = "txtNameFilter";
             this.txtNameFilter.Size = new System.Drawing.Size(172, 20);
             this.txtNameFilter.TabIndex = 21;
@@ -360,7 +341,6 @@
             this.label1.Size = new System.Drawing.Size(57, 20);
             this.label1.TabIndex = 9;
             this.label1.Text = "ИНН";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // cbDriveCategories
             // 
@@ -492,12 +472,10 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.ComboBox txtCbFilter;
         private System.Windows.Forms.TextBox txtEmailFilter;
         private System.Windows.Forms.TextBox txtPhoneFilter;
-        private System.Windows.Forms.DateTimePicker dpDobFilter;
         private System.Windows.Forms.TextBox txtLastNameFilter;
         private System.Windows.Forms.TextBox txtNameFilter;
         private System.Windows.Forms.TextBox txtInnFilter;
